@@ -1,3 +1,36 @@
+FGUK's  LTV A-7E Corsair II 
+----------------------------
+
+![FGUK IMAGE](http://www.fguk.eu/images/jdownloads/screenshots/thumbnails/fgfs-screen-061.png)
+
+This aircraft requires the DAVE PACK, available <a href="http://www.fgukmedia.co.uk/index.php/hangar/viewdownload/11-other-objects-and-vehicles/170-davepackupdate">HERE</a>
+
+V1.4
+-----
+
+
+Release Date:- 25/11/2012
+
+Release Notes:
+--------------
+
+v 1.4
+-----
+
+* Refitted cockpit
+* New sound pack ( Taken from the FGR2 as the A-7E used a Spey powerplant ).
+* Multiplayer sound.
+* Stick and pedals.
+* New ejector seat.
+* Vapour effects.
+* Low level wash
+* Livery selection.
+* Converted to JPEG liveries. 
+
+
+
+***
+
 LICENSE:  Creative Commons, CC-BY-NC-SA
 
 Below is the original license that came with the A-7E model on which this model is based.  It was released as Freeware, Non-Commercial.  This model cannot be sold, and cannot be used for commercial use.
