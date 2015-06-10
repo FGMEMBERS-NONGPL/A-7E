@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Default</name>
+     <texture-fuselage>Liveries/default/fuselage.jpg</texture-fuselage>
+     <texture-lwing>Liveries/default/LWing.jpg</texture-lwing>
+	 <texture-rwing>Liveries/default/RWing.jpg</texture-rwing>
+	 <texture-ltail>Liveries/default/tail-left.jpg</texture-ltail>
+     <texture-rtail>Liveries/default/tail-right.jpg</texture-rtail>
+	 <texture-pylon>Liveries/default/pylons.jpg</texture-pylon>
+	 <texture-pilot>Liveries/default/pilot.jpg</texture-pilot>
+     
+
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

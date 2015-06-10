@@ -1,0 +1,1179 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+MATERIAL "Material.003" rgb 0.14 0.14 0.14 amb 0.14 0.14 0.14 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+MATERIAL "Material.004" rgb 0.300984 0.326237 0.008464 amb 0.300984 0.326237 0.008464 emis 0 0 0 spec 1 1 1 shi 32 trans 0
+OBJECT world
+kids 11
+OBJECT group
+name "Down.L"
+kids 1
+OBJECT group
+name "Down.L.001"
+kids 1
+OBJECT group
+name "Down.L.002"
+kids 1
+OBJECT group
+name "Down.L.003"
+kids 1
+OBJECT group
+name "Down.L.004"
+kids 1
+OBJECT group
+name "Down.L.005"
+kids 1
+OBJECT group
+name "Down.L.006"
+kids 1
+OBJECT group
+name "Down.L.007"
+kids 1
+OBJECT group
+name "Down.L.008"
+kids 1
+OBJECT group
+name "Down.L.009"
+kids 1
+OBJECT group
+name "Down.L.010"
+kids 1
+OBJECT group
+name "Down.L.011"
+kids 1
+OBJECT group
+name "Down.L.012"
+kids 1
+OBJECT group
+name "Down.L.013"
+kids 1
+OBJECT group
+name "Down.L.014"
+kids 1
+OBJECT group
+name "Down.L.015"
+kids 1
+OBJECT group
+name "Down.L.016"
+kids 1
+OBJECT group
+name "Down.L.017"
+kids 1
+OBJECT group
+name "Down.L.018"
+kids 1
+OBJECT group
+name "Down.L.019"
+kids 1
+OBJECT group
+name "Down.L.020"
+kids 1
+OBJECT group
+name "Down.L.021"
+kids 1
+OBJECT group
+name "Down.L.022"
+kids 1
+OBJECT group
+name "Down.L.023"
+kids 1
+OBJECT group
+name "Down.L.024"
+kids 1
+OBJECT group
+name "Down.L.025"
+kids 1
+OBJECT group
+name "Down.L.026"
+kids 1
+OBJECT group
+name "Down.L.027"
+kids 1
+OBJECT group
+name "Down.L.028"
+kids 1
+OBJECT group
+name "Down.L.029"
+kids 1
+OBJECT group
+name "Down.L.030"
+kids 1
+OBJECT group
+name "Down.L.031"
+kids 1
+OBJECT group
+name "Down.L.032"
+kids 1
+OBJECT group
+name "Down.L.033"
+kids 1
+OBJECT group
+name "Down.L.034"
+kids 1
+OBJECT group
+name "Down.L.035"
+kids 1
+OBJECT group
+name "Down.L.036"
+kids 1
+OBJECT group
+name "Down.L.037"
+kids 1
+OBJECT group
+name "Down.L.038"
+kids 1
+OBJECT group
+name "Down.L.039"
+kids 1
+OBJECT group
+name "Down.L.040"
+kids 1
+OBJECT group
+name "Down.L.041"
+kids 1
+OBJECT group
+name "Down.L.042"
+kids 1
+OBJECT group
+name "Down.L.043"
+kids 1
+OBJECT group
+name "Down.L.044"
+kids 1
+OBJECT group
+name "Down.L.045"
+kids 1
+OBJECT group
+name "Down.L.046"
+kids 1
+OBJECT group
+name "Down.L.047"
+kids 1
+OBJECT group
+name "Down.L.048"
+kids 1
+OBJECT group
+name "Down.L.049"
+kids 1
+OBJECT group
+name "Down.L.050"
+kids 1
+OBJECT group
+name "Down.L.051"
+kids 1
+OBJECT group
+name "Down.L.052"
+kids 1
+OBJECT group
+name "Down.L.053"
+kids 1
+OBJECT group
+name "Down.L.054"
+kids 1
+OBJECT group
+name "Down.L.055"
+kids 1
+OBJECT group
+name "Down.L.056"
+kids 1
+OBJECT group
+name "Down.L.057"
+kids 1
+OBJECT group
+name "Down.L.058"
+kids 1
+OBJECT group
+name "Down.L.059"
+kids 1
+OBJECT group
+name "Down.L.060"
+kids 1
+OBJECT group
+name "Down.L.061"
+kids 1
+OBJECT group
+name "Down.L.062"
+kids 1
+OBJECT group
+name "Down.L.063"
+kids 1
+OBJECT group
+name "Down.L.064"
+kids 1
+OBJECT group
+name "Down.L.065"
+kids 1
+OBJECT group
+name "Down.L.066"
+kids 1
+OBJECT group
+name "Down.L.067"
+kids 1
+OBJECT group
+name "Down.L.068"
+kids 1
+OBJECT group
+name "Down.L.069"
+kids 1
+OBJECT group
+name "Down.L.070"
+kids 1
+OBJECT group
+name "Down.L.071"
+kids 1
+OBJECT group
+name "Down.L.072"
+kids 1
+OBJECT group
+name "Down.L.073"
+kids 1
+OBJECT group
+name "Down.L.074"
+kids 1
+OBJECT group
+name "Down.L.075"
+kids 1
+OBJECT group
+name "Down.L.076"
+kids 1
+OBJECT group
+name "Down.L.077"
+kids 1
+OBJECT group
+name "Down.L.078"
+kids 1
+OBJECT group
+name "Down.L.079"
+kids 1
+OBJECT group
+name "Down.L.080"
+kids 1
+OBJECT group
+name "Down.L.081"
+kids 1
+OBJECT group
+name "Down.L.082"
+kids 1
+OBJECT group
+name "Down.L.083"
+kids 1
+OBJECT group
+name "Down.L.084"
+kids 1
+OBJECT group
+name "FCScont.Switch"
+kids 1
+OBJECT group
+name "Fire.L.Switch"
+kids 1
+OBJECT group
+name "FCScont.Switch.001"
+kids 1
+OBJECT group
+name "Fire.L.Switch.001"
+kids 1
+OBJECT group
+name "FCScont.Switch.002"
+kids 1
+OBJECT group
+name "Fire.L.Switch.002"
+kids 1
+OBJECT group
+name "FCScont.Switch.003"
+kids 1
+OBJECT group
+name "Fire.L.Switch.003"
+kids 1
+OBJECT group
+name "FCScont.Switch.005"
+kids 1
+OBJECT group
+name "Fire.L.Switch.005"
+kids 1
+OBJECT group
+name "FCScont.Switch.006"
+kids 1
+OBJECT group
+name "Fire.L.Switch.006"
+kids 1
+OBJECT group
+name "FCScont.Switch.007"
+kids 1
+OBJECT group
+name "Fire.L.Switch.007"
+kids 1
+OBJECT group
+name "FCScont.Switch.008"
+kids 1
+OBJECT group
+name "Fire.L.Switch.008"
+kids 1
+OBJECT group
+name "FCScont.Switch.010"
+kids 1
+OBJECT group
+name "Fire.L.Switch.010"
+kids 1
+OBJECT group
+name "FCScont.Switch.011"
+kids 1
+OBJECT group
+name "Fire.L.Switch.011"
+kids 1
+OBJECT group
+name "FCScont.Switch.012"
+kids 1
+OBJECT group
+name "Fire.L.Switch.012"
+kids 1
+OBJECT group
+name "FCScont.Switch.013"
+kids 1
+OBJECT group
+name "Fire.L.Switch.013"
+kids 1
+OBJECT group
+name "FCScont.Switch.015"
+kids 1
+OBJECT group
+name "Fire.L.Switch.015"
+kids 1
+OBJECT group
+name "FCScont.Switch.016"
+kids 1
+OBJECT group
+name "Fire.L.Switch.016"
+kids 1
+OBJECT group
+name "FCScont.Switch.017"
+kids 1
+OBJECT group
+name "Fire.L.Switch.017"
+kids 1
+OBJECT group
+name "FCScont.Switch.018"
+kids 1
+OBJECT group
+name "Fire.L.Switch.018"
+kids 1
+OBJECT group
+name "FCScont.Switch.020"
+kids 1
+OBJECT group
+name "Fire.L.Switch.020"
+kids 1
+OBJECT group
+name "FCScont.Switch.021"
+kids 1
+OBJECT group
+name "Fire.L.Switch.021"
+kids 1
+OBJECT group
+name "FCScont.Switch.022"
+kids 1
+OBJECT group
+name "Fire.L.Switch.022"
+kids 1
+OBJECT group
+name "FCScont.Switch.023"
+kids 1
+OBJECT group
+name "Fire.L.Switch.023"
+kids 1
+OBJECT group
+name "FCScont.Switch.025"
+kids 1
+OBJECT group
+name "Fire.L.Switch.025"
+kids 1
+OBJECT group
+name "FCScont.Switch.026"
+kids 1
+OBJECT group
+name "Fire.L.Switch.026"
+kids 1
+OBJECT group
+name "FCScont.Switch.027"
+kids 1
+OBJECT group
+name "Fire.L.Switch.027"
+kids 1
+OBJECT group
+name "FCScont.Switch.028"
+kids 1
+OBJECT group
+name "Fire.L.Switch.028"
+kids 1
+OBJECT group
+name "FCScont.Switch.030"
+kids 1
+OBJECT group
+name "Fire.L.Switch.030"
+kids 1
+OBJECT group
+name "FCScont.Switch.031"
+kids 1
+OBJECT group
+name "Fire.L.Switch.031"
+kids 1
+OBJECT group
+name "FCScont.Switch.032"
+kids 1
+OBJECT group
+name "Fire.L.Switch.032"
+kids 1
+OBJECT group
+name "FCScont.Switch.033"
+kids 1
+OBJECT group
+name "Fire.L.Switch.033"
+kids 1
+OBJECT group
+name "FCScont.Switch.035"
+kids 1
+OBJECT group
+name "Fire.L.Switch.035"
+kids 1
+OBJECT group
+name "FCScont.Switch.036"
+kids 1
+OBJECT group
+name "Fire.L.Switch.036"
+kids 1
+OBJECT group
+name "FCScont.Switch.037"
+kids 1
+OBJECT group
+name "Fire.L.Switch.037"
+kids 1
+OBJECT group
+name "FCScont.Switch.038"
+kids 1
+OBJECT group
+name "Fire.L.Switch.038"
+kids 1
+OBJECT group
+name "FCScont.Switch.040"
+kids 1
+OBJECT group
+name "Fire.L.Switch.040"
+kids 1
+OBJECT group
+name "FCScont.Switch.041"
+kids 1
+OBJECT group
+name "Fire.L.Switch.041"
+kids 1
+OBJECT group
+name "FCScont.Switch.042"
+kids 1
+OBJECT group
+name "Fire.L.Switch.042"
+kids 1
+OBJECT group
+name "FCScont.Switch.043"
+kids 1
+OBJECT group
+name "Fire.L.Switch.043"
+kids 1
+OBJECT group
+name "FCScont.Switch.045"
+kids 1
+OBJECT group
+name "Fire.L.Switch.045"
+kids 1
+OBJECT group
+name "FCScont.Switch.046"
+kids 1
+OBJECT group
+name "Fire.L.Switch.046"
+kids 1
+OBJECT group
+name "FCScont.Switch.047"
+kids 1
+OBJECT group
+name "Fire.L.Switch.047"
+kids 1
+OBJECT group
+name "FCScont.Switch.048"
+kids 1
+OBJECT group
+name "Fire.L.Switch.048"
+kids 1
+OBJECT group
+name "FCScont.Switch.050"
+kids 1
+OBJECT group
+name "Fire.L.Switch.050"
+kids 1
+OBJECT group
+name "FCScont.Switch.051"
+kids 1
+OBJECT group
+name "Fire.L.Switch.051"
+kids 1
+OBJECT group
+name "FCScont.Switch.052"
+kids 1
+OBJECT group
+name "Fire.L.Switch.052"
+kids 1
+OBJECT group
+name "FCScont.Switch.053"
+kids 1
+OBJECT group
+name "Fire.L.Switch.053"
+kids 1
+OBJECT group
+name "FCScont.Switch.055"
+kids 1
+OBJECT group
+name "Fire.L.Switch.055"
+kids 1
+OBJECT group
+name "FCScont.Switch.056"
+kids 1
+OBJECT group
+name "Fire.L.Switch.056"
+kids 1
+OBJECT group
+name "FCScont.Switch.057"
+kids 1
+OBJECT group
+name "Fire.L.Switch.057"
+kids 1
+OBJECT group
+name "FCScont.Switch.058"
+kids 1
+OBJECT group
+name "Fire.L.Switch.058"
+kids 1
+OBJECT group
+name "FCScont.Switch.060"
+kids 1
+OBJECT group
+name "Fire.L.Switch.060"
+kids 1
+OBJECT group
+name "FCScont.Switch.061"
+kids 1
+OBJECT group
+name "Fire.L.Switch.061"
+kids 1
+OBJECT group
+name "FCScont.Switch.062"
+kids 1
+OBJECT group
+name "Fire.L.Switch.062"
+kids 1
+OBJECT group
+name "FCScont.Switch.063"
+kids 1
+OBJECT group
+name "Fire.L.Switch.063"
+kids 1
+OBJECT group
+name "FCScont.Switch.065"
+kids 1
+OBJECT group
+name "Fire.L.Switch.065"
+kids 1
+OBJECT group
+name "FCScont.Switch.066"
+kids 1
+OBJECT group
+name "Fire.L.Switch.066"
+kids 1
+OBJECT group
+name "FCScont.Switch.067"
+kids 1
+OBJECT group
+name "Fire.L.Switch.067"
+kids 1
+OBJECT group
+name "FCScont.Switch.068"
+kids 1
+OBJECT group
+name "Fire.L.Switch.068"
+kids 1
+OBJECT group
+name "FCScont.Switch.070"
+kids 1
+OBJECT group
+name "Fire.L.Switch.070"
+kids 1
+OBJECT group
+name "FCScont.Switch.071"
+kids 1
+OBJECT group
+name "Fire.L.Switch.071"
+kids 1
+OBJECT group
+name "FCScont.Switch.072"
+kids 1
+OBJECT group
+name "Fire.L.Switch.072"
+kids 1
+OBJECT group
+name "FCScont.Switch.073"
+kids 1
+OBJECT group
+name "Fire.L.Switch.073"
+kids 1
+OBJECT group
+name "FCScont.Switch.075"
+kids 1
+OBJECT group
+name "Fire.L.Switch.075"
+kids 1
+OBJECT group
+name "FCScont.Switch.076"
+kids 1
+OBJECT group
+name "Fire.L.Switch.076"
+kids 1
+OBJECT group
+name "FCScont.Switch.077"
+kids 1
+OBJECT group
+name "Fire.L.Switch.077"
+kids 1
+OBJECT group
+name "FCScont.Switch.078"
+kids 1
+OBJECT group
+name "Fire.L.Switch.078"
+kids 1
+OBJECT group
+name "FCScont.Switch.080"
+kids 1
+OBJECT group
+name "Fire.L.Switch.080"
+kids 1
+OBJECT group
+name "FCScont.Switch.081"
+kids 1
+OBJECT group
+name "Fire.L.Switch.081"
+kids 1
+OBJECT poly
+name "Cube.002"
+data 8
+Cube.003
+crease 30.000000
+numvert 8
+0.003538 -0.012086 -0.03577
+0.003538 -0.012086 0.035771
+-9.3e-05 -0.012086 0.03577
+-9.3e-05 -0.012086 -0.035771
+0.003538 0.012086 -0.03577
+0.003538 0.012086 0.035771
+-9.3e-05 0.012086 0.03577
+-9.3e-05 0.012086 -0.03577
+numsurf 6
+SURF 0x30
+mat 1
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 1
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 1
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x30
+mat 1
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x30
+mat 1
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x30
+mat 1
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "button1"
+data 8
+Cube.004
+crease 30.000000
+numvert 8
+0.007732 0.000864 -0.027275
+0.007732 0.000864 -0.017552
+0.003367 0.000864 -0.017552
+0.003367 0.000864 -0.027275
+0.007732 0.010587 -0.027275
+0.007732 0.010587 -0.017552
+0.003367 0.010587 -0.017552
+0.003367 0.010587 -0.027275
+numsurf 6
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "button1.001"
+data 8
+Cube.005
+crease 30.000000
+numvert 8
+0.007732 0.000864 -0.013871
+0.007732 0.000864 -0.004147
+0.003367 0.000864 -0.004147
+0.003367 0.000864 -0.013871
+0.007732 0.010587 -0.013871
+0.007732 0.010587 -0.004147
+0.003367 0.010587 -0.004147
+0.003367 0.010587 -0.013871
+numsurf 6
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "button1.002"
+data 8
+Cube.006
+crease 30.000000
+numvert 8
+0.007732 0.000864 0.017704
+0.007732 0.000864 0.027427
+0.003367 0.000864 0.027427
+0.003367 0.000864 0.017704
+0.007732 0.010587 0.017704
+0.007732 0.010587 0.027427
+0.003367 0.010587 0.027427
+0.003367 0.010587 0.017704
+numsurf 6
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "button1.003"
+data 8
+Cube.007
+crease 30.000000
+numvert 8
+0.007732 0.000864 0.004299
+0.007732 0.000864 0.014023
+0.003367 0.000864 0.014023
+0.003367 0.000864 0.004299
+0.007732 0.010587 0.0043
+0.007732 0.010587 0.014023
+0.003367 0.010587 0.014023
+0.003367 0.010587 0.004299
+numsurf 6
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "button1.004"
+data 8
+Cube.008
+crease 30.000000
+numvert 8
+0.007583 -0.010604 0.004299
+0.007583 -0.010604 0.014023
+0.003218 -0.010604 0.014023
+0.003218 -0.010604 0.004299
+0.007583 -0.000881 0.0043
+0.007583 -0.000881 0.014023
+0.003218 -0.000881 0.014023
+0.003218 -0.000881 0.004299
+numsurf 6
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "button1.005"
+data 8
+Cube.009
+crease 30.000000
+numvert 8
+0.007583 -0.010604 0.017704
+0.007583 -0.010604 0.027427
+0.003218 -0.010604 0.027427
+0.003218 -0.010604 0.017704
+0.007583 -0.000881 0.017704
+0.007583 -0.000881 0.027427
+0.003218 -0.000881 0.027427
+0.003218 -0.000881 0.017704
+numsurf 6
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "button1.006"
+data 8
+Cube.010
+crease 30.000000
+numvert 8
+0.007583 -0.010604 -0.013871
+0.007583 -0.010604 -0.004147
+0.003218 -0.010604 -0.004147
+0.003218 -0.010604 -0.013871
+0.007583 -0.000881 -0.013871
+0.007583 -0.000881 -0.004147
+0.003218 -0.000881 -0.004147
+0.003218 -0.000881 -0.013871
+numsurf 6
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0
+OBJECT poly
+name "button1.007"
+data 8
+Cube.011
+crease 30.000000
+numvert 8
+0.007583 -0.010604 -0.027275
+0.007583 -0.010604 -0.017552
+0.003218 -0.010604 -0.017552
+0.003218 -0.010604 -0.027275
+0.007583 -0.000881 -0.027275
+0.007583 -0.000881 -0.017552
+0.003218 -0.000881 -0.017552
+0.003218 -0.000881 -0.027275
+numsurf 6
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+1 0 0
+2 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+7 0 0
+6 0 0
+5 0 0
+SURF 0x30
+mat 2
+refs 4
+0 0 0
+4 0 0
+5 0 0
+1 0 0
+SURF 0x30
+mat 2
+refs 4
+1 0 0
+5 0 0
+6 0 0
+2 0 0
+SURF 0x30
+mat 2
+refs 4
+2 0 0
+6 0 0
+7 0 0
+3 0 0
+SURF 0x30
+mat 2
+refs 4
+4 0 0
+0 0 0
+3 0 0
+7 0 0
+kids 0

@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+ 
+<PropertyList>
+
+ <fx>
+ 
+ <!-- Avionics Hum -->
+ <avhum>
+  <path>Aircraft/A-7E/Sounds/FGOS_Avionics.wav</path>
+  <mode>looped</mode>
+  <type>avionics</type>
+     <condition>
+    	<property>/engines/engine/running</property>
+    	 <property>/sim/current-view/internal</property>
+   </condition>
+ </avhum>
+ 
+   <engine>
+   <name>Engine Exhaust</name>
+   <mode>looped</mode>
+   <path>Aircraft/A-7E/Sounds/SpeyWhi1_FGOS.wav</path>
+   <condition>
+    	<property>/engines/engine/running</property>
+    	 <not>
+         	<property>/sim/current-view/internal</property>
+	 	<property>/engines/engine/out-of-fuel</property>
+     	</not>
+   </condition>
+   <position>
+    	<x>6.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+   </position>
+   <orientation>
+	<x>90.0</x>
+    	<y>0.0</y>
+    	<z>0.0</z>
+    	<inner-angle>80.0</inner-angle>
+   	<outer-angle>110.0</outer-angle>
+   	<outer-gain>0.5</outer-gain>
+   </orientation>
+   <volume>
+        <property>engines/engine/n2</property>
+        <factor>0.08</factor>
+        <min>0.4</min>
+	<max>1.0</max>
+   </volume>
+   <pitch>
+    	<property>engines/engine/n2</property>
+	<factor>0.005</factor>
+	<min>0</min>
+	<max>0.7</max>
+   </pitch>
+  </engine>
+ 
+
+  <engine>
+   <name>engine1</name>
+   <mode>looped</mode>
+   <path>Aircraft/DavePack/Sounds/milpower.wav</path>
+   <condition>
+    <property>/engines/engine[0]/running</property>
+    <not>
+      <property>/sim/current-view/internal</property>
+    </not>
+   </condition>
+   <orientation>
+    <x>0.0</x>
+    <y>0.0</y>
+    <z>180.0</z>
+    <inner-cone>180.0</inner-cone>
+    <outer-cone>360.0</outer-cone>
+    <outer-gain>0.2</outer-gain>
+   </orientation>
+   <volume>
+    <property>/controls/engines/engine[0]/throttle</property>
+    <factor>0.5</factor>
+    <min>0.1</min>
+    <max>0.5</max>
+   </volume>
+  </engine>
+
+  
+
+  <engine>
+   <name>engine1-from-cockpit</name>
+   <mode>looped</mode>
+   <path>Aircraft/DavePack/Sounds/milpower.wav</path>
+   <condition>
+    <property>/engines/engine[0]/running</property>
+     <property>/sim/current-view/internal</property>
+   </condition>
+   <volume>
+    <property>/controls/engines/engine[0]/throttle</property>
+    <factor>0.2</factor>
+    <min>0.05</min>
+    <max>0.2</max>
+   </volume>
+  </engine>
+
+  
+
+  <engine>
+   <name>burner</name>
+   <mode>looped</mode>
+   <path>Aircraft/DavePack/Sounds/afterburner.wav</path>
+   <condition>
+    <or>
+    <property>/engines/engine[0]/augmentation</property>
+    <property>/engines/engine[1]/augmentation</property>
+    </or>
+    <not>
+     <property>/sim/current-view/internal</property>
+    </not>
+   </condition>
+   <orientation>
+    <x>0.0</x>
+    <y>0.0</y>
+    <z>180.0</z>
+    <inner-cone>180.0</inner-cone>
+    <outer-cone>360.0</outer-cone>
+    <outer-gain>0.2</outer-gain>
+   </orientation>
+   <volume>
+    <property>/controls/throttle[0]</property>
+    <factor>1</factor>
+    <min>0.4</min>
+    <max>0.5</max>
+   </volume>
+  </engine>
+
+  <engine>
+   <name>burner-from-cockpit</name>
+   <mode>looped</mode>
+   <path>Aircraft/DavePack/Sounds/afterburner.wav</path>
+   <condition>
+    <or>
+     <property>/engines/engine[0]/augmentation</property>
+     <property>/engines/engine[1]/augmentation</property>
+    </or>
+    <property>/sim/current-view/internal</property>
+   </condition>
+   <volume>
+    <property>/controls/throttle[0]</property>
+    <factor>0.1</factor>
+    <min>0.1</min>
+    <max>0.1</max>
+   </volume>
+  </engine>
+
+  <engine>
+   <name>compressor-whine-external-engine0</name>
+   <path>Sounds/turbojet_fan.wav</path>
+   <mode>looped</mode>
+   <condition>
+    <not>
+     <property>/sim/current-view/internal</property>
+    </not>
+    <greater-than>
+      <property>/engines/engine[0]/n2</property>
+      <value>1</value>
+    </greater-than>
+   </condition>
+   <orientation>
+    <x> 0.0</x>
+    <y> 0.0</y>
+    <z> 180.0</z>
+    <inner-cone>50.0</inner-cone>
+    <outer-cone>180.0</outer-cone>
+    <outer-gain>0.5</outer-gain>
+   </orientation>
+   <pitch>
+    <property>/engines/engine[0]/n2</property>
+    <factor>.001</factor>
+   </pitch>
+   <volume>
+    <property>/engines/engine[0]/n2</property>
+    <factor>0.000167</factor>
+    <min>0.00</min>
+    <max>0.167</max>
+   </volume>
+  </engine>
+
+  <engine>
+   <name>compressor-whine-external-engine1</name>
+   <path>Sounds/turbojet_fan.wav</path>
+   <mode>looped</mode>
+   <condition>
+    <not>
+     <property>/sim/current-view/internal</property>
+    </not>
+    <greater-than>
+      <property>/engines/engine[1]/n2</property>
+      <value>1</value>
+    </greater-than>
+   </condition>
+   <orientation>
+    <x> 0.0</x>
+    <y> 0.0</y>
+    <z> 180.0</z>
+    <inner-cone>50.0</inner-cone>
+    <outer-cone>180.0</outer-cone>
+    <outer-gain>0.5</outer-gain>
+   </orientation>
+   <pitch>
+    <property>/engines/engine[1]/n2</property>
+    <factor>.001</factor>
+   </pitch>
+   <volume>
+    <property>/engines/engine[1]/n2</property>
+    <factor>0.000167</factor>
+    <min>0.00</min>
+    <max>0.167</max>
+   </volume>
+  </engine>
+  
+  
+
+  <tire-rumble>
+   <name>tire-rumble</name>
+   <mode>looped</mode>
+   <path>Sounds/rumble.wav</path>
+   <condition>
+     <property>/sim/current-view/internal</property>
+    <or>
+     <property>/gear/gear[0]/wow</property>
+     <property>/gear/gear[1]/wow</property>
+     <property>/gear/gear[2]/wow</property>
+    </or>
+   </condition>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.004</factor>
+    <max>0.3</max>
+   </volume>
+  </tire-rumble>
+
+  <gear-wind>
+   <name>gear-wind</name>
+   <mode>looped</mode>
+   <path>Sounds/rumble.wav</path>
+   <condition>
+     <property>/sim/current-view/internal</property>
+     <greater-than>
+      <property>/gear/gear[1]/position-norm[0]</property>
+      <value>0.01</value>
+     </greater-than>
+   </condition>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.002</factor>
+    <max>1.0</max>
+   </volume>
+  </gear-wind>
+
+  <squeal>
+   <name>squeal</name>
+   <path>Sounds/squeal.wav</path>
+   <condition>
+    <or>
+     <property>/gear/gear[0]/wow</property>
+     <property>/gear/gear[1]/wow</property>
+     <property>/gear/gear[2]/wow</property>
+    </or>
+   </condition>
+   <pitch>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.0025</factor>
+    <offset>1.2</offset>
+   </pitch>
+  </squeal>
+
+  <wind>
+   <name>wind</name>
+   <mode>looped</mode>
+   <path>Sounds/wind.wav</path>
+   <condition>
+     <property>/sim/current-view/internal</property>
+   </condition>
+   <property>/velocities/airspeed-kt</property>
+   <volume>
+    <property>/fdm/jsbsim/aero/qbar-psf</property>
+    <factor>0.0002</factor>
+    <min>0.0</min>
+    <max>0.3</max>
+   </volume>
+   <pitch>
+    <property>/fdm/jsbsim/aero/qbar-psf</property>
+    <factor>0.002</factor>
+    <offset>1.25</offset>
+   </pitch>
+  </wind>
+
+  <alpha-buffet>
+   <name>alpha-buffet</name>
+   <mode>looped</mode>
+   <condition>
+    <property>/sim/current-view/internal</property>
+    <greater-than>
+     <property>/fdm/jsbsim/aero/alpha-deg</property>
+     <value>8.6</value>
+    </greater-than>
+    <greater-than>
+     <property>velocities/airspeed-kt</property>
+     <value>50.0</value>
+    </greater-than>
+   </condition>
+   <path>Sounds/rumble.wav</path>
+   <volume>
+    <property>/fdm/jsbsim/aero/alpha-deg</property>
+    <factor>0.263</factor>
+    <max>1.0</max>
+   </volume>
+   <pitch>
+    <property>/fdm/jsbsim/aero/alpha-deg</property>
+    <factor>0.00005</factor>
+   </pitch>
+  </alpha-buffet>
+
+  <speedbrake-buffet>
+   <name>speedbrake</name>
+   <mode>looped</mode>
+   <path>Sounds/rumble.wav</path>
+   <condition>
+     <property>/sim/current-view/internal</property>
+     <property>/surface-positions/speedbrake-pos-norm</property>
+   </condition>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.0025</factor>
+    <max>0.3</max>
+   </volume>
+  </speedbrake-buffet>
+
+ 
+
+  <crash>
+   <name>boing</name>
+   <condition>
+    <property>fdm/jsbsim/systems/crash-detect/crashed</property>
+   </condition>
+   <path>Aircraft/DavePack/Sounds/boing.wav</path>
+  </crash>
+
+
+  <voice>
+  <name>Geforce-breath-vox</name>
+  <path>Aircraft/A-7E/Sounds/Geforce.wav</path>
+  <condition>
+   <greater-than>
+    <property>/accelerations/pilot/z-accel-fps_sec</property>
+    <value>-161</value>
+   </greater-than>   
+  </condition>
+<volume>
+<factor>0.9</factor>
+</volume>
+ </voice>
+
+<voice>
+  <name>Geforce-vox</name>
+  <path>Aircraft/A-7E/Sounds/geforce1.wav</path>
+  <condition>
+   <less-than>
+    <property>/accelerations/pilot/z-accel-fps_sec</property>
+    <value>-225</value>
+   </less-than>   
+  </condition>
+<volume>
+<factor>0.9</factor>
+</volume>
+ </voice>
+ 
+  <guns>
+   <name>gunfire</name>
+   <mode>looped</mode>
+   <condition>
+    <property>controls/armament/trigger</property>
+   </condition>
+   <path>Aircraft/DavePack/Sounds/20mm-gun.wav</path>
+  </guns>
+  
+  
+  <!-- flyby -->
+		<flyby>
+			<name>fly-by</name>
+			<mode>looped</mode>
+			<path>Aircraft/A-7E/Sounds/flyby.wav</path>
+			<condition>
+				<equals>
+					<property>sim/current-view/view-number</property>
+					<value>6</value>
+				</equals>
+				<not>
+         	<property>/sim/current-view/internal</property>
+	 	<property>/engines/engine/out-of-fuel</property>
+     	</not>
+		</condition>
+			<!-- <volume>
+				<property>velocities/airspeed-kt</property>
+				<factor>0.001</factor>
+			</volume>
+			-->
+		</flyby>
+		
+	<gear>
+			<name>gear</name>
+			<mode>in-transit</mode>
+			<path>Aircraft/A-7E/Sounds/gear.wav</path>
+			<property>/gear/gear[0]/position-norm</property>
+			<pitch>
+				<internal>dt_play</internal>
+				<offset>1.0</offset>
+				<factor>-0.001</factor>
+			</pitch>
+		</gear>
+		<gear>
+			<name>gear-lock</name>
+			<path>Aircraft/A-7E/Sounds/gear-lck.wav</path>
+			<condition>
+				<equals>
+					<property>/gear/gear[0]/position-norm</property>
+					<value>0</value>
+				</equals>
+			</condition>
+		</gear>
+		<gear>
+			<name>gear</name>
+			<mode>in-transit</mode>
+			<path>Aircraft/A-7E/Sounds/gear.wav</path>
+			<property>/gear/gear[1]/position-norm</property>
+			<pitch>
+				<internal>dt_play</internal>
+				<offset>1.0</offset>
+				<factor>-0.001</factor>
+			</pitch>
+		</gear>
+		<gear>
+			<name>gear-lock</name>
+			<path>Aircraft/A-7E/Sounds/gear-lck.wav</path>
+			<condition>
+				<equals>
+					<property>/gear/gear[1]/position-norm</property>
+					<value>0</value>
+				</equals>
+			</condition>
+		</gear>
+		<gear>
+			<name>gear</name>
+			<mode>in-transit</mode>
+			<path>Aircraft/A-7E/Sounds/gear.wav</path>
+			<property>/gear/gear[2]/position-norm</property>
+			<pitch>
+				<internal>dt_play</internal>
+				<offset>1.0</offset>
+				<factor>-0.001</factor>
+			</pitch>
+		</gear>
+		<gear>
+			<name>gear-lock</name>
+			<path>Aircraft/A-7E/Sounds/gear-lck.wav</path>
+			<condition>
+				<equals>
+					<property>/gear/gear[2]/position-norm</property>
+					<value>0</value>
+				</equals>
+			</condition>
+		</gear>
+
+	<flap>
+			<name>flaps</name>
+			<mode>in-transit</mode>
+			<path>Aircraft/A-7E/Sounds/flaps.wav</path>
+				<property>/surface-positions/flap-pos-norm</property>
+				<property>/surface-positions/speedbrake-pos-norm</property>
+				<property>/surface-positions/slat-pos-norm</property>
+			<volume>
+				<offset>0.25</offset>
+				<max>0.9</max>
+			</volume>
+		</flap>
+		<flap>
+			<name>flaps</name>
+			<mode>in-transit</mode>
+			<path>Sounds/flaps.wav</path>
+				<property>/surface-positions/flap-pos-norm</property>
+				<property>/surface-positions/speedbrake-pos-norm</property>
+				<property>/surface-positions/slat-pos-norm</property>
+			<volume>
+				<offset>0.25</offset>
+				<max>0.9</max>
+			</volume>
+		</flap>
+		<speedbrake>
+			<name>speedbrake</name>
+			<mode>in-transit</mode>
+			<path>Aircraft/A-7E/Sounds/flaps.wav</path>
+			<property>/surface-positions/speedbrake-pos-norm</property>
+			<volume>
+				<offset>0.25</offset>
+				<max>0.9</max>
+			</volume>
+		</speedbrake>
+		<speedbrake>
+			<name>speedbrake</name>
+			<mode>in-transit</mode>
+			<path>Sounds/flaps.wav</path>
+			<property>/surface-positions/speedbrake-pos-norm</property>
+			<volume>
+				<offset>0.25</offset>
+				<max>0.9</max>
+			</volume>
+		</speedbrake>	
+		
+			<!-- Bomb release -->
+		
+		<crash>
+			<name>Bomb_on_hardpoint1</name>
+			
+			<condition>
+				<equals>
+					<property>controls/armament/station[1]/release</property>
+					<value>true</value>
+				</equals>
+			</condition>
+			
+			<path>Aircraft/A-7E/Samples/Bomb.wav</path>
+		</crash>
+		
+		<crash>
+			<name>Bomb_on_hardpoint5</name>
+			
+			<condition>
+				<equals>
+					<property>controls/armament/station[5]/release</property>
+					<value>true</value>
+				</equals>
+			</condition>
+			
+			<path>Aircraft/A-7E/Sounds/Samples/Bomb.wav</path>
+		</crash>
+  
+</fx>
+ 
+</PropertyList>
